@@ -48,7 +48,7 @@ const Availableicon = ({ icons, selectedIcons,
   }`}
       disabled={selectedIcons.includes(icon.name)}
       >
-        {selectedIcons.includes(icon.name) ? "Selected" : "Add to Stack"}
+        {selectedIcons.includes(icon.name) ? "✓ Added to Stack" : "Add to Stack"}
         </button>
     </div>
   </div>

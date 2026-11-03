@@ -6,7 +6,7 @@ import type { Type } from "./type/type";
 import Footer from "./Components/Footer";
 
 const iconsFetch = async() : Promise<Type[]> => {
-  const res = await fetch(`${import.meta.env.BASE_URL}data.json`);
+  const res = await fetch("/data.json");
   const data = await res.json();
   return data;
 }
